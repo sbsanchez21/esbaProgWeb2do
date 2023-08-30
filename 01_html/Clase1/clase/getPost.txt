@@ -1,0 +1,10 @@
+http://127.0.0.1:5500/Clase1/clase/clientes/
+inputform.html
+?
+apellido=Perez
+&
+email=jperez%40gmail.com
+&
+cv=OCCT.config.json
+&
+fechaNac=2023-08-15
