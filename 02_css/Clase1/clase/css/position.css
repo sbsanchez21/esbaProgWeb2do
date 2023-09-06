@@ -1,0 +1,28 @@
+.caja {
+    display: inline-block;
+    background-color: red;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    margin: 1rem;
+}
+
+#pos {
+    position: absolute;
+    background-color: blue;
+    top: 15px;
+    left: 55px;
+}
+
+.menu {
+    position: sticky;
+    top: 0px;
+    background-color: black;
+    color: wheat;
+    padding: .5rem;
+}
+
+.menu  li {
+    display: inline-block;
+    margin: 1rem;
+}

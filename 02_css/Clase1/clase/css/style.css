@@ -1,0 +1,54 @@
+
+p {
+    text-align: center;
+    background-color: aqua!important;
+    padding: 1rem;
+    margin: 1rem;
+
+}
+
+a {
+    background-color: red;
+    color: wheat;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.titulo {
+    font-size: 1.5rem;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.subtitulo {
+    font-size: 1.2rem;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.texto {
+    font-size: 1rem;
+    text-align: justify;
+}
+
+#publicidad {
+    background-color: yellow;
+    color: rgb(128, 65, 65);
+    padding: 1rem;
+    margin: 1rem;
+    width: 100px;
+    height: 100px;
+}
+
+body {
+    background-image: url("../image/fondo.jpg");
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+
+.margen {
+    background-color: rgba(40, 125, 4, 0.64);
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+}
