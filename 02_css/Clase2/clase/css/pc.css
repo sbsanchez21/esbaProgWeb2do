@@ -1,0 +1,54 @@
+p {
+    background-color: lightblue;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+p:hover {
+    background-color: lightcoral;
+    font-size: 1.5rem;
+    cursor: pointer;
+
+}
+
+.btnBlack {
+    background-color: black;
+    color: white;
+    padding: .4rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btnBlack:hover {
+    background-color: lightgray;
+}
+
+.buscar {
+    height: 40px;
+    border-radius: 30px;
+    border: 1px solid lightgray;
+    width: 150px;
+
+}
+
+.buscar span {
+    margin-top: .2rem;
+}
+
+.inputF {
+    height: 20px;
+    border: 0;
+    width: 100px;
+
+}
+
+.inputF:focus {
+    width: 200px;
+}
+
+input:read-only {
+    background-color: red;
+    cursor:not-allowed
+}

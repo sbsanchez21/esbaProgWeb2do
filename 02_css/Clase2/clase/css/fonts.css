@@ -1,0 +1,12 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Work+Sans:wght@300&display=swap');
+
+
+
+p {
+    font-family: 'Oswald', sans-serif;
+}
+
+div {
+    font-family: 'Work Sans', sans-serif;
+}

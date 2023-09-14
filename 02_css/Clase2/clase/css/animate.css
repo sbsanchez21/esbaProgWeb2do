@@ -1,0 +1,25 @@
+.bienvenida {
+    background-color: lightgrey;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.texto {
+    background-color: lightcoral;
+    margin: 1rem;
+    padding: 1rem;
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s; /* don't forget to set a duration! */
+    --animate-delay: 0.9s;
+}
+
+.btnAzul {
+    background-color: lightblue;
+    padding: .5rem;
+
+}
+
+.btnAzul:hover {
+    animation: flash; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s; 
+}
