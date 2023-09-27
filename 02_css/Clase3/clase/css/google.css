@@ -1,0 +1,57 @@
+.encabezado {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.encabezado a {
+    text-decoration: none;
+    color: black;
+    margin: 0 .3rem;
+}
+
+.encabezado img {
+    width: 50px;
+    border-radius: 70px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    width: 400px;
+}
+
+.buscador {
+    display: flex;
+    justify-content: center;
+}
+
+.buscador input[type="text"] {
+    width: 500px;
+    height: 45px;
+    border-radius: 30px;
+    border: 1px solid lightgray;
+    padding: 0 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.buscador input[type="text"]:hover {
+    box-shadow: 0 0 7px lightgray;
+}
+
+.buscador input[type="submit"] {
+    background-color: rgb(246, 246, 246);
+    border: 0;
+    padding: .5rem;
+    border-radius: 5px;
+    margin: 0 .3rem;
+    font-size: .9rem;
+}
+
+.buscador input[type="submit"]:hover {
+    border: 1px solid lightgray;
+    cursor: pointer;
+}
