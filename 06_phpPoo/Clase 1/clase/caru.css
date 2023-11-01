@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.carousel {
+    display: flex;
+    overflow: hidden;
+    animation: scroll 10s linear infinite;
+}
+
+.slide {
+    min-width: 100%;
+    flex-shrink: 0;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-300%);
+    }
+}
